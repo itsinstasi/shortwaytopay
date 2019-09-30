@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: https://itsinsta.site/sitemap.xml
+Sitemap: https://shortwaytopay.com/sitemap.xml
