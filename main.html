@@ -2,7 +2,7 @@
 <html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>САЙТ ИНСТАГРАМ SHORTWAYTOPAY</title>
+    <title>САЙТ ИЗ ИНСТАГРАМ</title>
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -44,7 +44,7 @@
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="150"/>
     <meta property="og:image:height" content="150"/>
-    <meta property="og:title" content="САЙТ ИНСТАГРАМ SHORTWAYTOPAY" />
+    <meta property="og:title" content="САЙТ ИЗ ИНСТАГРАМ" />
     <meta property="og:description" content="🌎 Превратим мгновенно в портал
 ваш Instagram
 🤝Ссылки на мессенджеры
@@ -54,6 +54,9 @@
 🛒Оплаты от 0,5%" />
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="shortwaytopay" />
+
+    <!--modernizr-->
+	<script src="js/vendors/modernizr-custom.js"></script>
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -70,7 +73,7 @@
 				<div class="main-sec__wrap">
 					<div class="main-sec__logo">
 						<div class="main-sec__logo-pic">
-							<img src="https://scontent-arn2-2.cdninstagram.com/vp/41b347737fb9e8f325d4f9d4366e2312/5E3950F8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИНСТАГРАМ SHORTWAYTOPAY">
+							<img src="https://scontent-arn2-2.cdninstagram.com/vp/c2119a753a5c0be11a53e6d82db3ee9e/5E60DDF8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИЗ ИНСТАГРАМ">
 						</div>
 					</div>
 					<div class="main-sec__txt">
@@ -93,7 +96,7 @@
 							</div>
 						</div>
 						<div class="main-sec__txt-main">
-							<h1>САЙТ ИНСТАГРАМ SHORTWAYTOPAY</h1>
+							<h1>САЙТ ИЗ ИНСТАГРАМ</h1>
 							<p>🌎 Превратим мгновенно в портал<br/>ваш Instagram<br/>🤝Ссылки на мессенджеры<br/>🧭Рубрикаторы<br/>🎰Алгоритмы вовлечения<br/>🧲Выдача в Google и Яндекс<br/>🛒Оплаты от 0,5%</p>
 							<p>
 								<a href="./links.html"><b>Ссылки</b></a>
@@ -103,62 +106,67 @@
 				</div>
 			</div>
 		</div>
-		<div class="stories" style="display: none;">
-				<div class="container">
+		<div class="stories">
+			<div class="container">
+				<div class="stories__slider-wrap">
 					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide" title="руководство swp">
-								<a href="./tags/./rukovodstvo-swp.html">
-									<div class="stories__slide-pic"><img src="./img/og/rukovodstvo-swp.png" alt="руководство swp"></div>
-									<div class="stories__slide-txt">руководство swp</div>
-								</a>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="stories__slide" title="руководство swp">
+									<a href="./tags/./rukovodstvo-swp.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/rukovodstvo-swp.png);"></div>
+										<div class="stories__slide-txt">руководство swp</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide" title="shortwaytopay руководство">
-								<a href="./tags/./shortwaytopay-rukovodstvo.html">
-									<div class="stories__slide-pic"><img src="./img/og/shortwaytopay-rukovodstvo.png" alt="shortwaytopay руководство"></div>
-									<div class="stories__slide-txt">shortwaytopay руководство</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="shortwaytopay руководство">
+									<a href="./tags/./shortwaytopay-rukovodstvo.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/shortwaytopay-rukovodstvo.png);"></div>
+										<div class="stories__slide-txt">shortwaytopay руководство</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide" title="хэштеги swp">
-								<a href="./tags/./kheshtegi-swp.html">
-									<div class="stories__slide-pic"><img src="./img/og/kheshtegi-swp.png" alt="хэштеги swp"></div>
-									<div class="stories__slide-txt">хэштеги swp</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="хэштеги swp">
+									<a href="./tags/./kheshtegi-swp.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/kheshtegi-swp.png);"></div>
+										<div class="stories__slide-txt">хэштеги swp</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide" title="shortwaytopay хэштеги">
-								<a href="./tags/./shortwaytopay-kheshtegi.html">
-									<div class="stories__slide-pic"><img src="./img/og/shortwaytopay-kheshtegi.png" alt="shortwaytopay хэштеги"></div>
-									<div class="stories__slide-txt">shortwaytopay хэштеги</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="shortwaytopay хэштеги">
+									<a href="./tags/./shortwaytopay-kheshtegi.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/shortwaytopay-kheshtegi.png);"></div>
+										<div class="stories__slide-txt">shortwaytopay хэштеги</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide" title="пример swp сайта">
-								<a href="./tags/./primer-swp-sayta.html">
-									<div class="stories__slide-pic"><img src="./img/og/primer-swp-sayta.png" alt="пример swp сайта"></div>
-									<div class="stories__slide-txt">пример swp сайта</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="пример swp сайта">
+									<a href="./tags/./primer-swp-sayta.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/primer-swp-sayta.png);"></div>
+										<div class="stories__slide-txt">пример swp сайта</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide" title="тариф swp">
-								<a href="./tags/./tarif-swp.html">
-									<div class="stories__slide-pic"><img src="./img/og/tarif-swp.png" alt="тариф swp"></div>
-									<div class="stories__slide-txt">тариф swp</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="тариф swp">
+									<a href="./tags/./tarif-swp.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/tarif-swp.png);"></div>
+										<div class="stories__slide-txt">тариф swp</div>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+					<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+					<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 				</div>
 			</div>
 		</div>
-		<div class="items">
+		<div class="items" id="js-items">
 			<div class="container">
 				<div class="items-bar">
 					<button class="btn items-bar__btn active" id="js-grid"><i class="fa fa-th" aria-hidden="true"></i>Плитка</button>
@@ -167,13 +175,57 @@
 				</div>
 				<div class="items-main" id="js-items-main">
 					<div class="items-item">
-						<a href="./posts/./sayt-protiv-sotsseti.html" class="items-item__wrap">
+						<a href="./posts/./kak-napisat--seo-publikatsiyu-dlya-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/ea9b26b869d6311222387dcb8c0cd972/5DA5E5ED/t51.2885-15/e35/70807945_137598044228825_3871094609656546598_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Сайт против соцсети.">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/50ad0ecf58a7af938b49f9e29e008fea/5E61BDB9/t51.2885-15/e35/70989793_546030696160066_3138516346009270459_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как написать SEO публикацию для Инстаграм">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
-									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>6</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>3</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+								</div>
+							</div>
+							<div class="items-item__desc">
+								<div class="items-item__desc-datas">
+
+									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-15">15 October 2019</time></div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>3</div>
+								</div>
+								<h2>Как написать SEO публикацию для Инстаграм</h2>
+								<p>Как написать SEO публикацию для Инстаграм<br/><br/>ОПУБЛИКУЙ ПОСТ, КОТОРЫЙ ПРИВЕДЁТ ТЕБЕ ЗАКАЗЧИКОВ ИЗ GOOGLE И ЯНДЕКС.<br/><br/>SHORTWAYTOPAY ПРЕВРАЩАЕТ ОБЫЧНУЮ ПУБЛИКАЦИЮ, В SEO СТРАНИЦУ ДЛЯ ПОИСКА<br/><br/>1️⃣Выбирайте тему и заголовок при помощи анализа популярности в сервисе wordstat.yandex.ru исключите точные дубли заголовков.<br/><br/>2️⃣Начните пост с предложения в три или четыре слова, которые включают заголовок который вы выбрали (например: МЕБЕЛЬ ДЛЯ ДЕТСКОЙ КОМНАТЫ). Это предложение должно описывать самую суть вашей публикации, оно станет заголовком страницы.<br/><br/>3️⃣...</p>
+								<p>...ЧИТАТЬ ДАЛЕЕ</p>
+							</div>
+						</a>
+					</div>
+					<div class="items-item">
+						<a href="./posts/./razmetka-bol-shikh-akkauntov-instagram.html" class="items-item__wrap">
+							<div class="items-item__pic">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/122dbd496100ce07e4ef4781c2722970/5E3F8581/t51.2885-15/e35/73090458_138699037419771_7381088287853092335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Разметка больших аккаунтов Инстаграм.">
+							</div>							
+							<div class="items-item__blind">
+								<div class="items-item__blind-wrap">
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>1</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+								</div>
+							</div>
+							<div class="items-item__desc">
+								<div class="items-item__desc-datas">
+
+									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-14">14 October 2019</time></div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>1</div>
+								</div>
+								<h2>Разметка больших аккаунтов Инстаграм.</h2>
+								<p>Разметка больших аккаунтов Инстаграм.<br/>Или как быстро создать не большое, но качественное меню в сайте из Инстаграм.<br/>📷Узнайте о том, как быстро собрать удобное меню на сайте из Инстаграм.<br/><br/>Итак:<br/>Уже через несколько минут после первой синхронизации вы можете увидеть, что для вашего сайта создалось автоматическое меню сториз.<br/>Как вы можете заметить, для каждого хэштега, в котором более трёх публикаций создалось отдельное меню сториз.<br/>📷А что делать, если не нужно так много похожих рубрик?<br/><br/>Можно конечно почистить все публикации, а если их сотни и...</p>
+								<p>...ЧИТАТЬ ДАЛЕЕ</p>
+							</div>
+						</a>
+					</div>
+					<div class="items-item">
+						<a href="./posts/./sayt-protiv-sotsseti.html" class="items-item__wrap">
+							<div class="items-item__pic">
+								<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/vp/b0cd4ff521d9eca160b099d4af46c4d7/5DA931AD/t51.2885-15/e35/70807945_137598044228825_3871094609656546598_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Сайт против соцсети.">
+							</div>							
+							<div class="items-item__blind">
+								<div class="items-item__blind-wrap">
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>7</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
 								</div>
 							</div>
 							<div class="items-item__desc">
@@ -181,7 +233,7 @@
 									<div class="items-item__desc-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow</div>
 
 									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-12">12 October 2019</time></div>
-									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>6</div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>7</div>
 								</div>
 								<h2>Сайт против соцсети.</h2>
 								<p>Сайт против соцсети.<br/>Чем отличается культивирование заказчика в социальной сети от Сайта, ЧАСТЬ 1.<br/><br/>Нам всегда приходится платить за заказчика.<br/>Мы или покупаем его в рекламе или платим тем своим временем, которое мы тратим на ведение аккаунта в соцсетях.<br/><br/>У заказчиков есть цена и поэтому они имеют ценность.<br/>Каждый подписчик имеет свою цену.<br/><br/>Ну и конечно смысл любого бизнеса: КУПИТЬ ПОДЕШЕВЛЕ, ПРОДАТЬ ПОДОРОЖЕ.<br/><br/>Но до закрытия сделки ещё очень далеко.<br/>Не многие ваши заказчики откроют кошелёк и отдадут вам свои Деньги или ❤️. Наша задача разогре...</p>
@@ -192,18 +244,18 @@
 					<div class="items-item">
 						<a href="./posts/./cms-dlya-bloga-iz-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/8ef2a8d5f01bf91ed328cbcf7c597097/5E2BA1D0/t51.2885-15/e35/71081318_137454280897316_5036954062773838602_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CMS для блога из Инстаграм.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/8ef2a8d5f01bf91ed328cbcf7c597097/5E2BA1D0/t51.2885-15/e35/71081318_137454280897316_5036954062773838602_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CMS для блога из Инстаграм.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
-									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>7</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>8</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
 								</div>
 							</div>
 							<div class="items-item__desc">
 								<div class="items-item__desc-datas">
 
 									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-10">10 October 2019</time></div>
-									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>7</div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>8</div>
 								</div>
 								<h2>CMS для блога из Инстаграм.</h2>
 								<p>CMS для блога из Инстаграм.<br/>Или как превратить Instagram в БЛОГ.<br/><br/>Чтобы не писали про инстаграм, к сожалению он имеет новостную структуру.<br/>Это значит, что чем больше у вас публикаций, тем быстрее они скрывают предыдущие.<br/>📷Превосходные возможности представляет CMS Wordpress для обычного блога на сайте.<br/><br/>Wordpress- это отличный бесплатный движок Сайта. Хотя вам придётся платить за хостинг около 2000 рублей в год, вы получаете профессиональные инструменты навигации по сайту и алгоритмы вовлечения в «коробке».<br/>📷Пройдите Курсы по Wordpress.<br/>Запиши...</p>
@@ -214,7 +266,7 @@
 					<div class="items-item">
 						<a href="./posts/./kak-stat--blogerom-bez-word-press.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/a30aa5680afb71a8a34f70277fd7fa1e/5DA570AC/t51.2885-15/e35/71344656_189013942128170_5425863974648616778_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как стать блогером без Word Press?">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/4599ad9284981f9963bea5b39d1425da/5DA9652C/t51.2885-15/e35/71344656_189013942128170_5425863974648616778_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как стать блогером без Word Press?">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -236,7 +288,7 @@
 					<div class="items-item">
 						<a href="./posts/./cta-v-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/2c1051b24ab8c48c1e20633c84669689/5E297BD6/t51.2885-15/e35/70278141_141321503815900_3383384592738559473_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CTA в Instagram!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/2c1051b24ab8c48c1e20633c84669689/5E297BD6/t51.2885-15/e35/70278141_141321503815900_3383384592738559473_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CTA в Instagram!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -258,7 +310,7 @@
 					<div class="items-item">
 						<a href="./posts/./zachem-nuzhen-sayt.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/a59e7a2a45c96e6ba2c13ff653fbb79c/5E289A93/t51.2885-15/e35/s1080x1080/71812898_2512989732126448_1982833026402225474_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем нужен сайт?">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/a59e7a2a45c96e6ba2c13ff653fbb79c/5E289A93/t51.2885-15/e35/s1080x1080/71812898_2512989732126448_1982833026402225474_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем нужен сайт?">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -280,7 +332,7 @@
 					<div class="items-item">
 						<a href="./posts/./kak-prinimat--oplaty-iz-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="https://scontent-arn2-2.cdninstagram.com/vp/04e92c38f3a70c9e328971fc4a40a5cd/5E3E23E8/t51.2885-15/e35/69829513_115724232915209_157519596340843929_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как принимать оплаты из Instagram!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/04e92c38f3a70c9e328971fc4a40a5cd/5E3E23E8/t51.2885-15/e35/69829513_115724232915209_157519596340843929_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как принимать оплаты из Instagram!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -302,7 +354,7 @@
 					<div class="items-item">
 						<a href="./posts/./referal-naya-programma-shortwaytopay.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/85f2923653e43c1f3c47de631107dfdc/5E36BD8C/t51.2885-15/e35/72546362_151221222753002_3953763539706614351_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Реферальная программа Shortwaytopay.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/85f2923653e43c1f3c47de631107dfdc/5E36BD8C/t51.2885-15/e35/72546362_151221222753002_3953763539706614351_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Реферальная программа Shortwaytopay.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -324,7 +376,7 @@
 					<div class="items-item">
 						<a href="./posts/./vovlechenie-auditorii.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/15270633422906eb2f89451f24a987c5/5E21B29E/t51.2885-15/e35/69516525_139691663969648_5352740959728367512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Вовлечение аудитории!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/15270633422906eb2f89451f24a987c5/5E21B29E/t51.2885-15/e35/69516525_139691663969648_5352740959728367512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Вовлечение аудитории!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -346,7 +398,7 @@
 					<div class="items-item">
 						<a href="./posts/./kak-postavit--svoy-instagram-v-top-yandeks-i-google.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/117e69ce9da4861f690db748af839135/5E1C0DE1/t51.2885-15/e35/72070059_444076889649747_1384646646101690022_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как поставить свой Instagram в ТОП Яндекс и Google.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/77cac20bb6cae1e74b1993bc5f27ddc1/5E439AE1/t51.2885-15/e35/72070059_444076889649747_1384646646101690022_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как поставить свой Instagram в ТОП Яндекс и Google.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -368,7 +420,7 @@
 					<div class="items-item">
 						<a href="./posts/./kak-dobavit--ssylku-iz-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/17c30f7149db9ab13feb550e3d233d8c/5E254D70/t51.2885-15/e35/70269554_100333198037100_3614642092510852435_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как добавить ссылку из Instagram.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/17c30f7149db9ab13feb550e3d233d8c/5E254D70/t51.2885-15/e35/70269554_100333198037100_3614642092510852435_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как добавить ссылку из Instagram.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -390,18 +442,18 @@
 					<div class="items-item">
 						<a href="./posts/./menyu-bystrykh-ssylok-dlya-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/4bed4cc2ae86eb6eb447ed265ccb456c/5DA5E565/t51.2885-15/e35/70354915_387507395513288_613054589320207274_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Меню быстрых ссылок для инстаграм.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/8fc0cd8db7f144f73f8025c59ef834b1/5DA93125/t51.2885-15/e35/70354915_387507395513288_613054589320207274_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Меню быстрых ссылок для инстаграм.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
-									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>16</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
 								</div>
 							</div>
 							<div class="items-item__desc">
 								<div class="items-item__desc-datas">
 
 									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-28">28 September 2019</time></div>
-									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>16</div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
 								</div>
 								<h2>Меню быстрых ссылок для инстаграм.</h2>
 								<p>Меню быстрых ссылок для инстаграм.<br/>Решение, которое помогает закрывать сделки.<br/><br/>Любой специалист в Instagram знает, что наш любимый месенджер блокирует ссылки в публикациях и комментариях.<br/><br/>Единственная внешняя ссылка, это ссылка из описания Профиля.<br/>И куда эту ссылку нужно направить?<br/><br/>Конечно же на свой сайт...<br/>Верно?....<br/>НЕТ!!! НЕВЕРНО, и вот почему!<br/><br/>Существую два вида подписчиков:<br/><br/>1-ХОЛОДНЫЕ, ТЕ КТО НЕ ГОТОВ ПОКУПАТЬ;<br/>2-ГОРЯЧИЕ, ТЕ КТО ГОТОВ ОПЛАЧИВАТЬ.<br/><br/>В процессе того, как подписчик изучает ваш профиль, он привыкает к вам, проникается до...</p>
@@ -412,18 +464,18 @@
 					<div class="items-item">
 						<a href="./posts/./zagolovok-h1.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Заголовок h1!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Заголовок h1!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
-									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>12</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
+									<div><span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span><span><i class="fa fa-external-link" aria-hidden="true"></i>Читать</span></div>
 								</div>
 							</div>
 							<div class="items-item__desc">
 								<div class="items-item__desc-datas">
 
 									<div class="items-item__desc-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-26">26 September 2019</time></div>
-									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>12</div>
+									<div class="items-item__desc-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="items-item__desc-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
 								</div>
 								<h2>Заголовок h1!</h2>
 								<p>Заголовок h1!<br/>Зачем нужен и как его установить?<br/><br/>Для удобства посетителей вашего сайта и в соответствии с требованиями поисковых машин GOOGLE и Яндекс на каждом сайте должен присутствовать ЗАГОЛОВОК.<br/>В тексте заголовок помогает быстро уловить суть страницы.<br/>Обычно выделяется жирным и с первых секунд понятно, о чем ваша страница.<br/><br/>Как правило все сайты имеют заголовок, в отличии от Instagram. ! К сведению: В коде сайта заголовки имеют иерархическую структуру от h1 до h6. h1 как правило показывает ответ на вопрос о чем эта страница. Этот заголово...</p>
@@ -434,7 +486,7 @@
 					<div class="items-item">
 						<a href="./posts/./zachem-khoroshiy-instagram-akkaunt-prevrashchat--v-sayt.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/ee54041fe7f06d594a56ee818095a02a/5DA57456/t51.2885-15/e35/70021071_385816528765744_1403962678853882353_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем хороший Инстаграм аккаунт превращать в сайт?">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/7772877b14bb99b9da42cbfdd34d3b0c/5DA968D6/t51.2885-15/e35/70021071_385816528765744_1403962678853882353_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем хороший Инстаграм аккаунт превращать в сайт?">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -456,7 +508,7 @@
 					<div class="items-item">
 						<a href="./posts/./lending-iz-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/579f84a3cbe4a8628bd5c9e86fdcfd2f/5E37ADA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Лендинг из Instagram!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/6027012a5d585e865573c898b6ca8656/5E5F3AA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Лендинг из Instagram!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -478,7 +530,7 @@
 					<div class="items-item">
 						<a href="./posts/./chto-delat--esli-vam-khochetsya-krasivyy-yarkiy-sayt.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/f8db0c6031fe11a59e861c758f891039/5DA562F7/t51.2885-15/e35/69646399_947127635640427_5576895058608562997_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Что делать если вам хочется КРАСИВЫЙ ЯРКИЙ САЙТ,">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/fdecb98572e4d4b0965b01a046017d05/5DA95777/t51.2885-15/e35/69646399_947127635640427_5576895058608562997_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Что делать если вам хочется КРАСИВЫЙ ЯРКИЙ САЙТ,">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -500,7 +552,7 @@
 					<div class="items-item">
 						<a href="./posts/./kak-skryt--publikatsiyu-na-sayte-iz-instagram.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/52e8b40cf493876347e1e2b68a8eb275/5E378F82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как скрыть публикацию на сайте из Instagram.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/2a51245dd3983354e86a9e33214ac4c1/5E5F1C82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как скрыть публикацию на сайте из Instagram.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -522,7 +574,7 @@
 					<div class="items-item">
 						<a href="./posts/./sozdayte-svoy-mebel-nyy-sayt-samostoyatel-no.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/884a3ff0bc50fe76071c7ada1039365c/5DA54FF1/t51.2885-15/e35/70070000_539274800212339_6148590169330139228_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Создайте свой мебельный сайт самостоятельно.">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/a825ff9b447f48c0f7ac7440c88d85b5/5DA94471/t51.2885-15/e35/70070000_539274800212339_6148590169330139228_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Создайте свой мебельный сайт самостоятельно.">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -544,7 +596,7 @@
 					<div class="items-item linked">
 						<a href="./posts/./swp-2400x-tarif-prox-2400-rubley-v-god.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/b9e6b070bba4b98f9912dd848db8b7cb/5E35BB5C/t51.2885-15/e35/70743820_617496782114045_7541215372445330068_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 2400, ТАРИФ PRO, 2400 РУБЛЕЙ В ГОД!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/b9e6b070bba4b98f9912dd848db8b7cb/5E35BB5C/t51.2885-15/e35/70743820_617496782114045_7541215372445330068_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 2400, ТАРИФ PRO, 2400 РУБЛЕЙ В ГОД!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -566,7 +618,7 @@
 					<div class="items-item">
 						<a href="./posts/./swp-0x-tarif-freex-0-rubley.html" class="items-item__wrap">
 							<div class="items-item__pic">
-								<img src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/4cb1a4816fe85db693d11933d0a10172/5E20C83B/t51.2885-15/e35/71190012_506317366865799_3315939300005158850_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 0, ТАРИФ FREE, 0 РУБЛЕЙ!">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/4cb1a4816fe85db693d11933d0a10172/5E20C83B/t51.2885-15/e35/71190012_506317366865799_3315939300005158850_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 0, ТАРИФ FREE, 0 РУБЛЕЙ!">
 							</div>							
 							<div class="items-item__blind">
 								<div class="items-item__blind-wrap">
@@ -627,11 +679,12 @@
 	</div>
 
 
+	<!--swiper-->
+	<script src="js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="js/vendors/jquery.min.js"></script>
-	<script src="js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="js/jquery.init.js"></script>
 	<!--my scripts-->

@@ -43,6 +43,9 @@
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="shortwaytopay" />
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -54,15 +57,15 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="../main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/41b347737fb9e8f325d4f9d4366e2312/5E3950F8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИНСТАГРАМ SHORTWAYTOPAY"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c2119a753a5c0be11a53e6d82db3ee9e/5E60DDF8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИЗ ИНСТАГРАМ"></div>
 							<div class="header__logo-txt">shortwaytopay</div>
 						</a>
-						<div class="header__title">САЙТ ИНСТАГРАМ SHORTWAYTOPAY</div>
+						<div class="header__title">САЙТ ИЗ ИНСТАГРАМ</div>
 					</div>
 				</div>
 			</div>
@@ -93,57 +96,63 @@
 					</div>
 				</div>
 			</section>
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="руководство swp">
-								<a href="../tags/./rukovodstvo-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/rukovodstvo-swp.png" alt="руководство swp" /></div>
-									<div class="stories__slide-txt">руководство swp</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="руководство swp">
+										<a href="../tags/./rukovodstvo-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/rukovodstvo-swp.png);"></div>
+											<div class="stories__slide-txt">руководство swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay руководство">
+										<a href="../tags/./shortwaytopay-rukovodstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-rukovodstvo.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay руководство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="хэштеги swp">
+										<a href="../tags/./kheshtegi-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kheshtegi-swp.png);"></div>
+											<div class="stories__slide-txt">хэштеги swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay хэштеги">
+										<a href="../tags/./shortwaytopay-kheshtegi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-kheshtegi.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay хэштеги</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пример swp сайта">
+										<a href="../tags/./primer-swp-sayta.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/primer-swp-sayta.png);"></div>
+											<div class="stories__slide-txt">пример swp сайта</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тариф swp">
+										<a href="../tags/./tarif-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tarif-swp.png);"></div>
+											<div class="stories__slide-txt">тариф swp</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay руководство">
-								<a href="../tags/./shortwaytopay-rukovodstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-rukovodstvo.png" alt="shortwaytopay руководство" /></div>
-									<div class="stories__slide-txt">shortwaytopay руководство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="хэштеги swp">
-								<a href="../tags/./kheshtegi-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/kheshtegi-swp.png" alt="хэштеги swp" /></div>
-									<div class="stories__slide-txt">хэштеги swp</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay хэштеги">
-								<a href="../tags/./shortwaytopay-kheshtegi.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-kheshtegi.png" alt="shortwaytopay хэштеги" /></div>
-									<div class="stories__slide-txt">shortwaytopay хэштеги</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="пример swp сайта">
-								<a href="../tags/./primer-swp-sayta.html">
-									<div class="stories__slide-pic"><img src="../img/og/primer-swp-sayta.png" alt="пример swp сайта" /></div>
-									<div class="stories__slide-txt">пример swp сайта</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="тариф swp">
-								<a href="../tags/./tarif-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/tarif-swp.png" alt="тариф swp" /></div>
-									<div class="stories__slide-txt">тариф swp</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -160,7 +169,7 @@
 							<a href="https://www.instagram.com/p/B3dAerIIEt2/" 
 								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
 							<a href="https://www.instagram.com/p/B3dAerIIEt2/" 
-								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>7</a>
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>8</a>
 						</div>
 					</div>
 					<div class="article__wrap" id="ja-article-wrap">
@@ -188,16 +197,14 @@
 								<h2>SEO страницы будут создаваться автоматически.</h2>
 								<p>А как же формат публикации?<br/>Ведь блог - это страница в которой идут по очереди : текст/фото/текст/фото/текст/фото и тд.<br/><br/>И этот функционал доступен для вас.<br/><br/>Перейдите по ссылке указанной в профиле на эту страницу на сайте <a href="https://shortwaytopay.com/posts/cms-dlya-bloga-iz-instagram.html" target="_blank">https://shortwaytopay.com/posts/cms-dlya-bloga-iz-instagram.html</a><br/><br/>А по этой ссылке сравните эту же публикацию в инстаграм: <a href="https://www.instagram.com/p/B3dAerIIEt2/?igshid=6qaxlqluy8g1" target="_blank">https://www.instagram.com/p/B3dAerIIEt2/?igshid=6qaxlqluy8g1</a><br/><br/>Вы увидите ту же публикацию, но фотографии стоят не в слайдшоу , а между абзацев!</p> 
 								<figure>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/50616d3a00651f597f0e34b2c7ccd3b0/5E3A59A7/t51.2885-15/e35/s1080x1080/73385878_701091487034723_7872093678488307355_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="Как поставить фото между текстом в instagram?">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/bbb2aec8cf8399a580da01c99728355f/5E61E6A7/t51.2885-15/e35/s1080x1080/73385878_701091487034723_7872093678488307355_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt="Как поставить фото между текстом в instagram?">
 								</figure> 
 								<h2>Как поставить фото между текстом в instagram?</h2>
 								<p>Очень просто!<br/>Вы обратили внимание, что в тексте публикации в инстаграм стоит ЭМОДЖИ ФОТОАППАРАТ! Да?<br/><br/>В том месте, где стоял ФОТОАППАРАТ в сайте появилась картинка.<br/><br/>А первое предложенное после картинки стало заголовком h2 ( такая штуковина для продвижения в google) и оно же стало Alt ( ещё одна штуковина для google).<br/>И вот наш новый блогер начинает получать трафик из поиска, зарабатывать на виджета и рекламе....<br/>А мог бы просто писать в Инстаграм и все тут😅<br/>—————————————-<br/>SHORTWAYTOPAY<br/>МЫ ОБЛЕГЧАЕМ<br/>ПРИКОСНОВЕНИЕ<br/>К ПОДПИСЧИКАМ<br/>———————————</p> 
 							</div>
 						<div>
 							<a href="https://www.instagram.com/p/B3dAerIIEt2/" 
-								target="_blank" class="links-page-list__item-link">
-								<strong>Комментировать</strong>
-								<span>Instagram</span>
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong>&nbsp;<span>Instagram</span>
 							</a>
 						</div>
 
@@ -222,7 +229,7 @@
 									<li><a href="./cta-v-instagram.html">CTA в Instagram!</a></li>
 									<li><a href="./kak-prinimat--oplaty-iz-instagram.html">Как принимать оплаты из Instagram!</a></li>
 									<li><a href="./vovlechenie-auditorii.html">Вовлечение аудитории!</a></li>
-									<li><a href="./zagolovok-h1.html">Заголовок h1!</a></li>
+									<li><a href="./kak-dobavit--ssylku-iz-instagram.html">Как добавить ссылку из Instagram.</a></li>
 									</ul>
 								</nav>
 								<nav class="article-bar__tags">
@@ -231,8 +238,10 @@
 										
 									</h3>
 									<ul class="article-bar__tags-list">
+									<li><a href="./kak-napisat--seo-publikatsiyu-dlya-instagram.html">Как написать SEO публикацию для Инстаграм</a></li>
+									<li><a href="./razmetka-bol-shikh-akkauntov-instagram.html">Разметка больших аккаунтов Инстаграм.</a></li>
+									<li><a href="./zagolovok-h1.html">Заголовок h1!</a></li>
 									<li><a href="./kak-skryt--publikatsiyu-na-sayte-iz-instagram.html">Как скрыть публикацию на сайте из Instagram.</a></li>
-									<li><a href="./lending-iz-instagram.html">Лендинг из Instagram!</a></li>
 									</ul>
 								</nav>
 								<nav class="article-bar__tags">
@@ -286,15 +295,6 @@
 								</div>
 								<div class="article-more__item-name">Как добавить ссылку из Instagram.</div>
 							</a>
-							<a href="./zagolovok-h1.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>12</span>
-									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt="Заголовок h1!">
-								</div>
-								<div class="article-more__item-name">Заголовок h1!</div>
-							</a>
 							<a href="./referal-naya-programma-shortwaytopay.html" class="article-more__item">
 								<div class="article-more__item-pic">
 									<div class="article-more__item-pic-blind">
@@ -304,23 +304,32 @@
 								</div>
 								<div class="article-more__item-name">Реферальная программа Shortwaytopay.</div>
 							</a>
-							<a href="./lending-iz-instagram.html" class="article-more__item">
+							<a href="./kak-napisat--seo-publikatsiyu-dlya-instagram.html" class="article-more__item">
 								<div class="article-more__item-pic">
 									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>3</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/579f84a3cbe4a8628bd5c9e86fdcfd2f/5E37ADA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt="Лендинг из Instagram!">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/50ad0ecf58a7af938b49f9e29e008fea/5E61BDB9/t51.2885-15/e35/70989793_546030696160066_3138516346009270459_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt="Как написать SEO публикацию для Инстаграм">
 								</div>
-								<div class="article-more__item-name">Лендинг из Instagram!</div>
+								<div class="article-more__item-name">Как написать SEO публикацию для Инстаграм</div>
 							</a>
-							<a href="./kak-skryt--publikatsiyu-na-sayte-iz-instagram.html" class="article-more__item">
+							<a href="./razmetka-bol-shikh-akkauntov-instagram.html" class="article-more__item">
+								<div class="article-more__item-pic">
+									<div class="article-more__item-pic-blind">
+										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>1</span>
+									</div>
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/122dbd496100ce07e4ef4781c2722970/5E3F8581/t51.2885-15/e35/73090458_138699037419771_7381088287853092335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Разметка больших аккаунтов Инстаграм.">
+								</div>
+								<div class="article-more__item-name">Разметка больших аккаунтов Инстаграм.</div>
+							</a>
+							<a href="./zagolovok-h1.html" class="article-more__item">
 								<div class="article-more__item-pic">
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/52e8b40cf493876347e1e2b68a8eb275/5E378F82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt="Как скрыть публикацию на сайте из Instagram.">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt="Заголовок h1!">
 								</div>
-								<div class="article-more__item-name">Как скрыть публикацию на сайте из Instagram.</div>
+								<div class="article-more__item-name">Заголовок h1!</div>
 							</a>
 						</div>
 					</section>		
@@ -364,11 +373,12 @@
 			</div>
 		</div>		
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->

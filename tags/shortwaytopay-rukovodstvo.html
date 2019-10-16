@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -44,10 +47,10 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="../main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/41b347737fb9e8f325d4f9d4366e2312/5E3950F8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИНСТАГРАМ SHORTWAYTOPAY"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c2119a753a5c0be11a53e6d82db3ee9e/5E60DDF8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИЗ ИНСТАГРАМ"></div>
 							<div class="header__logo-txt">shortwaytopay</div>
 						</a>
-						<div class="header__title">САЙТ ИНСТАГРАМ SHORTWAYTOPAY</div>
+						<div class="header__title">САЙТ ИЗ ИНСТАГРАМ</div>
 					</div>
 					<!--<div class="header__right">
 						<form action="#" method="get" class="search">
@@ -83,57 +86,63 @@
 					</div>
 				</div>
 			</section>
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="руководство swp">
-								<a href="./rukovodstvo-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/rukovodstvo-swp.png" alt="руководство swp" /></div>
-									<div class="stories__slide-txt">руководство swp</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="руководство swp">
+										<a href="./rukovodstvo-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/rukovodstvo-swp.png);"></div>
+											<div class="stories__slide-txt">руководство swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay руководство">
+										<a href="./shortwaytopay-rukovodstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-rukovodstvo.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay руководство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="хэштеги swp">
+										<a href="./kheshtegi-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kheshtegi-swp.png);"></div>
+											<div class="stories__slide-txt">хэштеги swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay хэштеги">
+										<a href="./shortwaytopay-kheshtegi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-kheshtegi.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay хэштеги</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пример swp сайта">
+										<a href="./primer-swp-sayta.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/primer-swp-sayta.png);"></div>
+											<div class="stories__slide-txt">пример swp сайта</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тариф swp">
+										<a href="./tarif-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tarif-swp.png);"></div>
+											<div class="stories__slide-txt">тариф swp</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay руководство">
-								<a href="./shortwaytopay-rukovodstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-rukovodstvo.png" alt="shortwaytopay руководство" /></div>
-									<div class="stories__slide-txt">shortwaytopay руководство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="хэштеги swp">
-								<a href="./kheshtegi-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/kheshtegi-swp.png" alt="хэштеги swp" /></div>
-									<div class="stories__slide-txt">хэштеги swp</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay хэштеги">
-								<a href="./shortwaytopay-kheshtegi.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-kheshtegi.png" alt="shortwaytopay хэштеги" /></div>
-									<div class="stories__slide-txt">shortwaytopay хэштеги</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="пример swp сайта">
-								<a href="./primer-swp-sayta.html">
-									<div class="stories__slide-pic"><img src="../img/og/primer-swp-sayta.png" alt="пример swp сайта" /></div>
-									<div class="stories__slide-txt">пример swp сайта</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="тариф swp">
-								<a href="./tarif-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/tarif-swp.png" alt="тариф swp" /></div>
-									<div class="stories__slide-txt">тариф swp</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -188,26 +197,12 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./zagolovok-h1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-26">26 September 2019</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>12</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Заголовок h1!</h2>
-										<p>Заголовок h1!<br/>Зачем нужен и как его установить?<br/><br/>Для удобства посетителей вашего сайта и в соответствии с требованиями поисковых машин GOOGLE и Яндекс на каждом сайте должен присутствовать ЗАГОЛОВОК.<br/>В тексте заголовок помогает быстро уловить суть страницы.<br/>Обычно выделяется жирным и с первых секунд понятно, о чем ваша страница.<br/><br/>Как правило все сайты имеют заголовок, в отличии от Instagram. ! К сведению: В коде сайта заголовки имеют иерархическую структуру от h1 до h6. h1 как правило показывает ответ на вопрос о чем эта страница. Этот заголово...</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
 							<a href="../posts/./cms-dlya-bloga-iz-instagram.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ef2a8d5f01bf91ed328cbcf7c597097/5E2BA1D0/t51.2885-15/e35/71081318_137454280897316_5036954062773838602_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-10">10 October 2019</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>7</div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>8</div>
 									</div>
 									<div class="tag__item-txt">
 										<h2>CMS для блога из Инстаграм.</h2>
@@ -216,8 +211,50 @@
 									</div>
 								</div>
 							</a>
+							<a href="../posts/./kak-napisat--seo-publikatsiyu-dlya-instagram.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/50ad0ecf58a7af938b49f9e29e008fea/5E61BDB9/t51.2885-15/e35/70989793_546030696160066_3138516346009270459_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-15">15 October 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>3</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Как написать SEO публикацию для Инстаграм</h2>
+										<p>Как написать SEO публикацию для Инстаграм<br/><br/>ОПУБЛИКУЙ ПОСТ, КОТОРЫЙ ПРИВЕДЁТ ТЕБЕ ЗАКАЗЧИКОВ ИЗ GOOGLE И ЯНДЕКС.<br/><br/>SHORTWAYTOPAY ПРЕВРАЩАЕТ ОБЫЧНУЮ ПУБЛИКАЦИЮ, В SEO СТРАНИЦУ ДЛЯ ПОИСКА<br/><br/>1️⃣Выбирайте тему и заголовок при помощи анализа популярности в сервисе wordstat.yandex.ru исключите точные дубли заголовков.<br/><br/>2️⃣Начните пост с предложения в три или четыре слова, которые включают заголовок который вы выбрали (например: МЕБЕЛЬ ДЛЯ ДЕТСКОЙ КОМНАТЫ). Это предложение должно описывать самую суть вашей публикации, оно станет заголовком страницы.<br/><br/>3️⃣...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./razmetka-bol-shikh-akkauntov-instagram.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/122dbd496100ce07e4ef4781c2722970/5E3F8581/t51.2885-15/e35/73090458_138699037419771_7381088287853092335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-14">14 October 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>1</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Разметка больших аккаунтов Инстаграм.</h2>
+										<p>Разметка больших аккаунтов Инстаграм.<br/>Или как быстро создать не большое, но качественное меню в сайте из Инстаграм.<br/>📷Узнайте о том, как быстро собрать удобное меню на сайте из Инстаграм.<br/><br/>Итак:<br/>Уже через несколько минут после первой синхронизации вы можете увидеть, что для вашего сайта создалось автоматическое меню сториз.<br/>Как вы можете заметить, для каждого хэштега, в котором более трёх публикаций создалось отдельное меню сториз.<br/>📷А что делать, если не нужно так много похожих рубрик?<br/><br/>Можно конечно почистить все публикации, а если их сотни и...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./zagolovok-h1.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/39da38c3ebbff289608baa592fd4c769/5E2D1CB3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-26">26 September 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Заголовок h1!</h2>
+										<p>Заголовок h1!<br/>Зачем нужен и как его установить?<br/><br/>Для удобства посетителей вашего сайта и в соответствии с требованиями поисковых машин GOOGLE и Яндекс на каждом сайте должен присутствовать ЗАГОЛОВОК.<br/>В тексте заголовок помогает быстро уловить суть страницы.<br/>Обычно выделяется жирным и с первых секунд понятно, о чем ваша страница.<br/><br/>Как правило все сайты имеют заголовок, в отличии от Instagram. ! К сведению: В коде сайта заголовки имеют иерархическую структуру от h1 до h6. h1 как правило показывает ответ на вопрос о чем эта страница. Этот заголово...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
 							<a href="../posts/./lending-iz-instagram.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/579f84a3cbe4a8628bd5c9e86fdcfd2f/5E37ADA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6027012a5d585e865573c898b6ca8656/5E5F3AA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-25">25 September 2019</time></div>
@@ -231,7 +268,7 @@
 								</div>
 							</a>
 							<a href="../posts/./kak-skryt--publikatsiyu-na-sayte-iz-instagram.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/52e8b40cf493876347e1e2b68a8eb275/5E378F82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2a51245dd3983354e86a9e33214ac4c1/5E5F1C82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-24">24 September 2019</time></div>
@@ -286,11 +323,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->

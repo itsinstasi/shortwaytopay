@@ -43,6 +43,9 @@
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="shortwaytopay" />
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -54,15 +57,15 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="../main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/41b347737fb9e8f325d4f9d4366e2312/5E3950F8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИНСТАГРАМ SHORTWAYTOPAY"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c2119a753a5c0be11a53e6d82db3ee9e/5E60DDF8/t51.2885-19/s150x150/71067427_383444615941259_2273374014233640960_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИЗ ИНСТАГРАМ"></div>
 							<div class="header__logo-txt">shortwaytopay</div>
 						</a>
-						<div class="header__title">САЙТ ИНСТАГРАМ SHORTWAYTOPAY</div>
+						<div class="header__title">САЙТ ИЗ ИНСТАГРАМ</div>
 					</div>
 					<div class="header__right">
 						<button onclick="window.open('https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=SWP 2400, ТАРИФ PRO, 2400 РУБЛЕЙ В ГОД!&targets-hint=&default-sum=2400&button-text=12&payment-type-choice=on&mail=on&comment=on&hint=Укажите ваш Instagram аккаунт&successURL=yandex.ru&quickpay=shop&account=410015237072018');" class="btn stories-popup__buy">2400RUB</button>
@@ -96,57 +99,63 @@
 					</div>
 				</div>
 			</section>
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="руководство swp">
-								<a href="../tags/./rukovodstvo-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/rukovodstvo-swp.png" alt="руководство swp" /></div>
-									<div class="stories__slide-txt">руководство swp</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="руководство swp">
+										<a href="../tags/./rukovodstvo-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/rukovodstvo-swp.png);"></div>
+											<div class="stories__slide-txt">руководство swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay руководство">
+										<a href="../tags/./shortwaytopay-rukovodstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-rukovodstvo.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay руководство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="хэштеги swp">
+										<a href="../tags/./kheshtegi-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kheshtegi-swp.png);"></div>
+											<div class="stories__slide-txt">хэштеги swp</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="shortwaytopay хэштеги">
+										<a href="../tags/./shortwaytopay-kheshtegi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/shortwaytopay-kheshtegi.png);"></div>
+											<div class="stories__slide-txt">shortwaytopay хэштеги</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пример swp сайта">
+										<a href="../tags/./primer-swp-sayta.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/primer-swp-sayta.png);"></div>
+											<div class="stories__slide-txt">пример swp сайта</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тариф swp">
+										<a href="../tags/./tarif-swp.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tarif-swp.png);"></div>
+											<div class="stories__slide-txt">тариф swp</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay руководство">
-								<a href="../tags/./shortwaytopay-rukovodstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-rukovodstvo.png" alt="shortwaytopay руководство" /></div>
-									<div class="stories__slide-txt">shortwaytopay руководство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="хэштеги swp">
-								<a href="../tags/./kheshtegi-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/kheshtegi-swp.png" alt="хэштеги swp" /></div>
-									<div class="stories__slide-txt">хэштеги swp</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="shortwaytopay хэштеги">
-								<a href="../tags/./shortwaytopay-kheshtegi.html">
-									<div class="stories__slide-pic"><img src="../img/og/shortwaytopay-kheshtegi.png" alt="shortwaytopay хэштеги" /></div>
-									<div class="stories__slide-txt">shortwaytopay хэштеги</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="пример swp сайта">
-								<a href="../tags/./primer-swp-sayta.html">
-									<div class="stories__slide-pic"><img src="../img/og/primer-swp-sayta.png" alt="пример swp сайта" /></div>
-									<div class="stories__slide-txt">пример swp сайта</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="тариф swp">
-								<a href="../tags/./tarif-swp.html">
-									<div class="stories__slide-pic"><img src="../img/og/tarif-swp.png" alt="тариф swp" /></div>
-									<div class="stories__slide-txt">тариф swp</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -253,7 +262,7 @@
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>20</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/117e69ce9da4861f690db748af839135/5E1C0DE1/t51.2885-15/e35/72070059_444076889649747_1384646646101690022_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Как поставить свой Instagram в ТОП Яндекс и Google.">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/77cac20bb6cae1e74b1993bc5f27ddc1/5E439AE1/t51.2885-15/e35/72070059_444076889649747_1384646646101690022_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt="Как поставить свой Instagram в ТОП Яндекс и Google.">
 								</div>
 								<div class="article-more__item-name">Как поставить свой Instagram в ТОП Яндекс и Google.</div>
 							</a>
@@ -266,15 +275,6 @@
 								</div>
 								<div class="article-more__item-name">Как принимать оплаты из Instagram!</div>
 							</a>
-							<a href="./menyu-bystrykh-ssylok-dlya-instagram.html" class="article-more__item">
-								<div class="article-more__item-pic">
-									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>16</span>
-									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/4bed4cc2ae86eb6eb447ed265ccb456c/5DA5E565/t51.2885-15/e35/70354915_387507395513288_613054589320207274_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="Меню быстрых ссылок для инстаграм.">
-								</div>
-								<div class="article-more__item-name">Меню быстрых ссылок для инстаграм.</div>
-							</a>
 							<a href="./vovlechenie-auditorii.html" class="article-more__item">
 								<div class="article-more__item-pic">
 									<div class="article-more__item-pic-blind">
@@ -283,6 +283,15 @@
 									<img src="https://scontent-arn2-2.cdninstagram.com/vp/15270633422906eb2f89451f24a987c5/5E21B29E/t51.2885-15/e35/69516525_139691663969648_5352740959728367512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="Вовлечение аудитории!">
 								</div>
 								<div class="article-more__item-name">Вовлечение аудитории!</div>
+							</a>
+							<a href="./kak-dobavit--ssylku-iz-instagram.html" class="article-more__item">
+								<div class="article-more__item-pic">
+									<div class="article-more__item-pic-blind">
+										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>12</span>
+									</div>
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/17c30f7149db9ab13feb550e3d233d8c/5E254D70/t51.2885-15/e35/70269554_100333198037100_3614642092510852435_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt="Как добавить ссылку из Instagram.">
+								</div>
+								<div class="article-more__item-name">Как добавить ссылку из Instagram.</div>
 							</a>
 						</div>
 					</section>		
@@ -326,11 +335,12 @@
 			</div>
 		</div>		
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
