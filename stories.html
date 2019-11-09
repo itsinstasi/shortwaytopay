@@ -1,0 +1,708 @@
+﻿<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <title>Stories. САЙТ ИЗ ИНСТАГРАМ</title>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
+	<link rel="stylesheet" href="css/style.css"/>
+    
+    <meta name="description" content="Программа для самостоятельного продвижения БРЕНДА в Instagram и Google при помощи ваших публикаций.
+100%АВТОМАТИЧЕСКИ СОЗДАЁТ SEO РАЗМЕТКУ ПУБЛИКАЦИЙ">
+    <meta name="keywords" content="руководство swp хэштеги пример тариф полезное meta повышение конверсии" />
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://shortwaytopay.com/img/og/og.jpg" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shortwaytopay.com" />
+    <meta property="og:image" content="https://shortwaytopay.com/img/og/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="150"/>
+    <meta property="og:image:height" content="150"/>
+    <meta property="og:title" content="САЙТ ИЗ ИНСТАГРАМ" />
+    <meta property="og:description" content="Программа для самостоятельного продвижения БРЕНДА в Instagram и Google при помощи ваших публикаций.
+100%АВТОМАТИЧЕСКИ СОЗДАЁТ SEO РАЗМЕТКУ ПУБЛИКАЦИЙ" />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="shortwaytopay" />
+
+    <!--modernizr-->
+	<script src="js/vendors/modernizr-custom.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
+    </noscript>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__left">
+						<div class="header__logo">
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9b422cc09cb9ffb1721bfc134a1ff3ec/5E400E80/t51.2885-19/s150x150/72536583_563836217695192_4580139084206309376_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="САЙТ ИЗ ИНСТАГРАМ" /></div>
+							<div class="header__logo-txt">shortwaytopay</div>
+						</div>
+						<div class="header__title">САЙТ ИЗ ИНСТАГРАМ</div>
+					</div>
+				</div>
+			</div>
+		</header>	
+		<div class="main-sec">
+			<div class="container">
+				<div class="main-sec__wrap">
+					<div class="main-sec__txt">
+						<p>&nbsp;</p>
+						<div class="search">
+							<input type="search" class="input search__input" placeholder="Story">
+							<button id="btn_save" class="btn search__btn" type="submit" title="Сохранить"><i class="fa fa-save" aria-hidden="true"></i></button>
+							<p>&nbsp;</p>
+							<button id="btn_delete" class="btn search__btn" type="submit" title="Удалить"><i class="fa fa-remove" aria-hidden="true"></i></button>
+							<p>&nbsp;
+								<div id="choosen">0</div> / <div id="total">0</div>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="stories">
+			<div class="container">
+				<div class="stories__slider-wrap">
+					<div class="stories__slider" id="js-stories-slider">
+						<div class="swiper-wrapper">
+						</div>
+					</div>
+					<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+					<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="items" id="js-items">
+			<div class="container">
+				<div class="items-main" id="js-items-main">
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="cms-dlya-novichka" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/8c6dde1d3f930c16c7618053771085cd/5DC865E4/t51.2885-15/e35/72463537_699431703912272_9187584448651855748_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CMS для новичка.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="primer-sayta-dlya-lichnogo" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/228b961b785c0d9d65018eba28ecd058/5DC86419/t51.2885-15/e35/75332692_148780853067814_8895429740657023259_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Пример сайта для личного">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="trebuetsya-arkhitektor-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/a74bb2c2ac43764b54e9ceabf2623553/5DC92627/t51.2885-15/e35/73495511_254919438780266_6531679455434772858_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Требуется архитектор инстаграм">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-povysit--okhvat-v-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/36e9cb36c4c4d8e9764defa367e6f6bd/5DC85855/t51.2885-15/e35/73420179_1596390203831375_558253408051764897_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как повысить охват в Инстаграм?">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="podzagolovok-xh2x" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/c981b5b4baa720674dcf608174d88297/5E51464E/t51.2885-15/e35/72683787_892431624486491_6690177753541191559_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Подзаголовок «h2».">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-napisat--seo-publikatsiyu-dlya-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/50ad0ecf58a7af938b49f9e29e008fea/5E61BDB9/t51.2885-15/e35/70989793_546030696160066_3138516346009270459_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как написать SEO публикацию для Инстаграм">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="razmetka-bol-shikh-akkauntov" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/122dbd496100ce07e4ef4781c2722970/5E3F8581/t51.2885-15/e35/73090458_138699037419771_7381088287853092335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Разметка больших аккаунтов">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="sayt-protiv-sotsseti" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/29e0f54121c237f102baec099dd3773e/5DC82CED/t51.2885-15/e35/70807945_137598044228825_3871094609656546598_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Сайт против соцсети.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="cms-dlya-bloga-iz-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/6b7ca83a7ea52a2114ef97c062e9a03b/5E532ED0/t51.2885-15/e35/71081318_137454280897316_5036954062773838602_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CMS для блога из Инстаграм.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-stat--blogerom-bez-word-press" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/951de0707ef66e2494880614c19f7a1c/5DC8606C/t51.2885-15/e35/71344656_189013942128170_5425863974648616778_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как стать блогером без Word Press?">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="cta-v-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/0d39f008880f98b94bf75dc8b5740e06/5E5108D6/t51.2885-15/e35/70278141_141321503815900_3383384592738559473_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="CTA в Instagram!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="zachem-nuzhen-sayt-iz-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/b667b1e3136a83f8804069f8fbfa6ebb/5E502793/t51.2885-15/e35/s1080x1080/71812898_2512989732126448_1982833026402225474_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем нужен сайт из инстаграм?">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-prinimat--oplaty-iz-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/04e92c38f3a70c9e328971fc4a40a5cd/5E3E23E8/t51.2885-15/e35/69829513_115724232915209_157519596340843929_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как принимать оплаты из Instagram!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="referal-naya-programma-shortwaytopay" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/a4f4b3143c49b9809b4bb61ac11bfc64/5E5E4A8C/t51.2885-15/e35/72546362_151221222753002_3953763539706614351_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Реферальная программа Shortwaytopay.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="vovlechenie-auditorii" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/04d7da99f3fc14fdacc9e4831c1789ee/5E493F9E/t51.2885-15/e35/69516525_139691663969648_5352740959728367512_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Вовлечение аудитории!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-postavit--svoy-instagram-v-top-yandeks" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/77cac20bb6cae1e74b1993bc5f27ddc1/5E439AE1/t51.2885-15/e35/72070059_444076889649747_1384646646101690022_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как поставить свой Instagram в ТОП Яндекс">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-dobavit--ssylku-iz-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/6ab930a1ac953def7b54a841b2df002b/5E4CDA70/t51.2885-15/e35/70269554_100333198037100_3614642092510852435_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как добавить ссылку из Instagram.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="menyu-bystrykh-ssylok-dlya-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/43843f8b146878dacdc1a0dd36bac0d5/5DC82C65/t51.2885-15/e35/70354915_387507395513288_613054589320207274_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Меню быстрых ссылок для инстаграм.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="zagolovok-h1" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/c0c5b230154cda39af25544d97de350f/5E54A9B3/t51.2885-15/e35/70829140_513529195882378_8113929541010259412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Заголовок h1!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="zachem-khoroshiy-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/8a467c6992976f4365732cbaf17ee727/5DC86416/t51.2885-15/e35/70021071_385816528765744_1403962678853882353_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Зачем хороший Инстаграм">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="lending-iz-instagram" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/6027012a5d585e865573c898b6ca8656/5E5F3AA1/t51.2885-15/e35/72103273_2405939736192648_6669589553962563876_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Лендинг из Instagram!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="chto-delat--esli-vam-khochetsya-krasivyy" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/68e104fe90aee5743e77950a1282140c/5DC852B7/t51.2885-15/e35/69646399_947127635640427_5576895058608562997_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Что делать если вам хочется КРАСИВЫЙ">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kak-skryt--publikatsiyu-na-sayte" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/2a51245dd3983354e86a9e33214ac4c1/5E5F1C82/t51.2885-15/e35/71763906_1251563665022272_957684917677985702_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Как скрыть публикацию на сайте">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="sozdayte-svoy-mebel-nyy-sayt-samostoyatel-no" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/bbdc896541e28c7b8ad749cb0ba73304/5DC83FB1/t51.2885-15/e35/70070000_539274800212339_6148590169330139228_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Создайте свой мебельный сайт самостоятельно.">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="swp-2400x-tarif-prox-2400-rubley" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/ca0b692194e1cb125a22340b32231bd8/5E5D485C/t51.2885-15/e35/70743820_617496782114045_7541215372445330068_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 2400, ТАРИФ PRO, 2400 РУБЛЕЙ">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="swp-0x-tarif-freex-0-rubley" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/vp/e7781acd3846ea706d54a68697dbdf8d/5E48553B/t51.2885-15/e35/71190012_506317366865799_3315939300005158850_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="SWP 0, ТАРИФ FREE, 0 РУБЛЕЙ!">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!--swiper-->
+	<script src="js/vendors/swiper.min.js"></script>
+	<!--jQuery-->
+	<script src="js/vendors/jquery.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="js/vendors/jquery.lazyloadxt.js"></script>
+	<!--init-->
+	<script src="js/jquery.init.js"></script>
+	<!--my scripts-->
+	<script src="js/jquery.main.js"></script>
+
+	<script type="text/javascript">
+var currentTitle = '';
+var tags = {
+};
+
+function cleanupItems() {
+	$(".items-item").each(function() {
+		$(this).find("input").prop("checked", false);
+	});
+}
+
+function refreshStories() {
+	$(".stories__slide").each(function() {
+		var checkbox = $(this).find("input");
+
+		if ($(this).prop("title") != currentTitle) {
+			checkbox.prop("checked", false);
+		} else if (!$(this).is(':checked')) {
+			checkbox.prop("checked", true);
+		}
+	});
+
+	resizeSwiper();
+}
+
+function refreshChoosen() {
+	if (currentTitle == ''  || tags[currentTitle] == null) {
+		$("#choosen").text(0);
+	} else {
+		$("#choosen").text(tags[currentTitle].length);
+	}
+}
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+
+var storyClick = function () {
+	var title = $(this).closest(".stories__slide").prop("title");
+	if ($(this).is(':checked')) {
+		currentTitle = title;
+
+		refreshStories();
+
+		// Set all choosen blocks.
+		if (tags[currentTitle] != null) {
+			$(".items-item").each(function() {
+				var checkbox = $(this).find("input");
+				checkbox.prop("checked", $.inArray(checkbox.prop("id"), tags[currentTitle]) !== -1);
+			});
+		} else {
+			cleanupItems();
+		}
+	} else {
+		currentTitle = '';
+
+		cleanupItems();
+	}
+	$(".search__input").val(currentTitle);
+	refreshChoosen();
+}
+
+function setStoryBackground(title) {
+	$(".stories__slide").each(function() {
+		if ($(this).prop("title") == title) {
+			var divPic = $(this).find('.stories__slide-pic');
+
+			var img = getStoryBackground(title);
+			divPic.css("background-image", "url(" + img + ")");
+		}
+	});
+}
+
+function getStoryBackground(title) {
+	if (title == null) {
+		return null;
+	}
+
+	var tag = tags[title][0];
+
+	var item = $(".items-item").filter(function() {
+		return $(this).find("input").prop("id") == tag;
+	}).first();
+
+	var url = item.find("img").attr('data-src');
+	if (typeof url !== typeof undefined && url !== false) {
+		return url;
+	}
+	return item.find("img").prop('src');
+}
+
+function addStory(title) {
+	$(".swiper-wrapper").prepend(`
+							<div class="swiper-slide">
+								<div class="stories__slide" title="` + title + `">
+									<label class="stories__slide__check">
+										<input type="checkbox" />
+										<div class="stories__slide-pic" style=""></div>
+										<div class="stories__slide-txt">` + title + `</div>
+									</label>
+								</div>
+							</div>
+`);
+	var added = $(".swiper-slide").first();
+	added.width(added.height());
+	added.find("input").click(storyClick);
+}
+
+function loadStories() {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories",
+		type: "GET",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); },
+		success: function (data) { 
+			tags = {};
+			$(".stories__slide").remove();
+
+			$.each(data, function(index, element) {
+				tags[element.title] = element.posts;
+
+				addStory(element.title);
+
+				setStoryBackground(element.title);
+			});
+
+			setTimeout(function(){
+				resizeSwiper();
+			}, 1000);
+		}
+	});
+}
+
+function linkStoryPost(story, post) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/link/" + post,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function unlinkStoryPost(story, post) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/unlink/" + post,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function createStory(story) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function renameStory(story, newStory) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/rename/" + newStory,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function resizeSwiper(){
+	swiper.update();
+}
+
+function deleteStory(storyTitle) {
+	tags[storyTitle] = [];
+
+	var story = $(".stories__slide").filter(function() {
+		return $(this).prop("title") == storyTitle;
+	}).first().parent();
+			
+	story.remove();
+
+	cleanupItems();
+
+	resizeSwiper();
+
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + storyTitle,
+		type: "DELETE",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+$(document).ready(function() {
+	key = getUrlParameter("key");
+
+	loadStories();
+
+	$("#total").text($(".items-item").length);
+
+    $(".stories__slide").each(function() {
+		$(this).find("input").click(storyClick);
+	});
+
+    $(".items-item").each(function() {
+		$(this).find("input").click(function() {
+			if (currentTitle != '') {
+				var id = $(this).prop("id");
+
+				if ($(this).is(':checked')) {
+					if (tags[currentTitle] == null) {
+						tags[currentTitle] = [ id ];
+					} else {
+						tags[currentTitle] = $.merge(tags[currentTitle], [ id ]);
+					}
+
+					linkStoryPost(currentTitle, id);
+				} else {
+					tags[currentTitle] = $(tags[currentTitle]).not([ id ]).get();
+
+					unlinkStoryPost(currentTitle, id);
+				}
+
+				if (tags[currentTitle].length == 1) {
+					setStoryBackground(currentTitle);
+				}
+
+				$("#choosen").text(tags[currentTitle].length);
+			} else {
+				$(this).prop("checked", false);
+			}
+		});
+	});
+
+	$("#btn_save").click(function(){
+		var newTitle = $(".search__input").val();
+
+		if (currentTitle != '' && newTitle != '') {
+			tags[newTitle] = tags[currentTitle];
+
+			var story = $(".stories__slide").filter(function(){
+				return $(this).prop("title") == currentTitle;
+			}).first();
+			story.prop("title", newTitle);
+
+			story.find(".stories__slide-txt").text(newTitle);
+
+			renameStory(currentTitle, newTitle);
+
+			currentTitle = newTitle;
+		} else if (currentTitle != '' && newTitle == '') {
+			deleteStory(currentTitle);
+
+			currentTitle = '';
+			cleanupItems();
+		} else if (currentTitle == '' && newTitle != '') {
+			var stories = $(".stories__slide").filter(function() {
+				return $(this).prop("title") == newTitle;
+			});
+
+			if (stories.length == 0) {
+				currentTitle = newTitle;
+
+				addStory(newTitle);
+
+				refreshStories();
+
+				createStory(currentTitle);
+			}
+		}
+	});
+
+	$("#btn_delete").click(function(){
+		if (currentTitle == '') {
+			return;
+		}
+
+		deleteStory(currentTitle);
+
+		currentTitle = '';
+		cleanupItems();
+
+		$(".search__input").val('');
+	});
+});
+	</script>
+</body>
+</html>
